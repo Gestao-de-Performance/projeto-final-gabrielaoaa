@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Página de Procedimentos Estéticos" />
+  <meta name="keyword" content="Microagulhamento, toxina botulinica, preenchimento, secagem de vasinhos" />
+  <meta name="author" content="Gabriela Abreu" />
+
+  <link rel="icon" type="image/x-icon" href="img/logomarrom.png" />
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" type="text/css" href="style.css" />
+
+</head>
+
+<body>
+
+  <section>
+    <div class="menu">
+      <img width="50px" height="50px" src="img/logomarrom.png" alt="Logo da página na cor marrom e de forma ondular">
+      <a class="botaoMenu" href="#sobreMim">Quem sou eu</a>
+      <a class="botaoMenu" href="#procedimentos">Procedimentos</a>
+      <a class="botaoMenu" href="#preAvaliacao">Pré avaliação</a>
+      <a class="botaoMenu" href="#contato">Contato</a>
+    </div>
+    <div id="sobreMim" class="row container-sobre-mim">
+      <div class="col-6">
+        <h1>Gabriela Abreu</h1>
+        <p>Olá, sejam bem vindos! Meu nome é Gabriela Abreu, eu sou biomédica esteta formada pela UFPE e criei
+          essa plataforma para vocês conheçam um pouco mais sobre os procedimentos estéticos.</p>
+      </div>
+      <div class="col-6 text-center">
+        <img width="300px" class="col-6" src="img/fotoperfil.png"
+          alt="Foto de perfil com jaleco branco, mãos apoiadas sobre a mesa.">
+      </div>
+    </div>
+
+    <div id="procedimentos" class="content">
+      <h1>Procedimentos</h1>
+      <div class="divider"></div>
+
+      <div class="container overflow-hidden text-center">
+        <div class="row gy-5">
+          <div class="col-4">
+            <div class="p-3">
+              <img class="imagem-procedimento" width="300px" src="img/microagulhamento.png" alt="Imagem do procedimento de microagulhamento">
+            </div>
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-primary gabi-color" data-bs-toggle="modal"
+              data-bs-target="#exampleModal">
+              Saiba mais
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+              aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Microagulhamento</h1>
+                    <button type="button" class="btn-close gabi-color" data-bs-dismiss="modal"
+                      aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    O microagulhamento é um procedimento que consiste em microperfurações da pele com finas agulhas
+                    metálicas. Seu princípio é semelhante ao da acupuntura, porém, localizado e múltiplo, produzindo
+                    efeito apenas na área tratada.
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary gabi-color" data-bs-dismiss="modal">Fechar</button>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="p-3">
+              <img class="imagem-procedimento" width="300px" src="img/botox.png" alt="Imagem do procedimento de botox">
+            </div>
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-primary gabi-color" data-bs-toggle="modal"
+              data-bs-target="#exampleModal1">
+              Saiba mais
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel"
+              aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Toxina Botulínica</h1>
+                    <button type="button" class="btn-close gabi-color" data-bs-dismiss="modal"
+                      aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    A aplicação de toxina botulínica, ou Botox, como é popularmente chamado, é um procedimento estético
+                    procurado por muitas pessoas, que buscam mudar algo na sua aparência. Essa substância é utilizada
+                    também em tratamento de doenças como a microcefalia e espasmos musculares, sendo capaz de impedir a
+                    contração muscular.
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary gabi-color" data-bs-dismiss="modal">Fechar</button>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <div class="col-4">
+            <div class="p-3">
+              <img class="imagem-procedimento" width="300px" src="img/microvasos.png" alt="Imagem do procedimento de microvasos">
+            </div>
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-primary gabi-color" data-bs-toggle="modal"
+              data-bs-target="#exampleModal2">
+              Saiba mais
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel"
+              aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Microvasos</h1>
+                    <button type="button" class="btn-close gabi-color" data-bs-dismiss="modal"
+                      aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    Os microvasos são pequenos vasos dilatados, tortuosos, situados abaixo da pele, na gordura dos
+                    membros inferiores. Têm dimensões entre 2 e 5 mm sendo de calibre intermediário entre as varizes e
+                    telangiectasias. São, em geral, assintomáticas mas antiestéticas.
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary gabi-color" data-bs-dismiss="modal">Fechar</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <div class="col-4">
+            <div class="p-3">
+              <img class="imagem-procedimento" width="300px" src="img/preenchimento.png" alt="Imagem do procedimento de preencimento">
+            </div>
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-primary gabi-color" data-bs-toggle="modal"
+              data-bs-target="#exampleModal3">
+              Saiba mais
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel"
+              aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Preenchimento</h1>
+                    <button type="button" class="btn-close gabi-color" data-bs-dismiss="modal"
+                      aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    O preenchimento com ácido hialurônico é feito com uma agulha sem ponta chamada de microcânula, que
+                    implanta o produto por meio de uma abertura lateral. Isso permite um preenchimento uniforme e de
+                    aparência mais natural. Os resultados podem variar de pessoa para pessoa.
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary gabi-color" data-bs-dismiss="modal">Fechar</button>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="p-3">
+              <img class="imagem-procedimento" width="300px" src="img/limpeza.png" alt="Imagem do procedimento de limpeza de pele">
+            </div>
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-primary gabi-color" data-bs-toggle="modal"
+              data-bs-target="#exampleModal">
+              Saiba mais
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+              aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Limpeza de pele</h1>
+                    <button type="button" class="btn-close gabi-color" data-bs-dismiss="modal"
+                      aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    O procedimento tem o objetivo de remover resíduos, secreções e impurezas, extrair comedões e
+                    pústulas, afinar a camada córnea e melhorar a capacidade de absorção da pele.
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary gabi-color" data-bs-dismiss="modal">Fechar</button>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-4">
+            <div class="p-3">
+              <img class="imagem-procedimento" width="300px" src="img/peeling.png" alt="Imagem do procedimento de peeling">
+            </div>
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-primary gabi-color" data-bs-toggle="modal"
+              data-bs-target="#exampleModal">
+              Saiba mais
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+              aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Peeling</h1>
+                    <button type="button" class="btn-close gabi-color" data-bs-dismiss="modal"
+                      aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    A palavra peeling é originada do inglês to peel, que significa descamar ou descascar. O objetivo do
+                    procedimento, que é um método seguro e eficaz, é renovar as células da pele por meio da descamação,
+                    além de ser um dos procedimentos estéticos mais procurados no Brasil.
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary gabi-color" data-bs-dismiss="modal">Fechar</button>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-4">
+            <div class="p-3">
+              <img class="imagem-procedimento" width="300px" src="img/hidrolipo.png" alt="Imagem do procedimento de hidrolipoclasia">
+            </div>
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-primary gabi-color" data-bs-toggle="modal"
+              data-bs-target="#exampleModal">
+              Saiba mais
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+              aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Hidrolipoclasia</h1>
+                    <button type="button" class="btn-close gabi-color" data-bs-dismiss="modal"
+                      aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    A Hidrolipoclasia é um tratamento, que potencializa o efeito do Ultrassom no combate à gordura
+                    localizada. A técnica consiste na aplicação de soro fisiológico nas células gordurosas através de
+                    uma agulha fina. Em seguida é realizado o Ultrassom.
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary gabi-color" data-bs-dismiss="modal">Fechar</button>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-4">
+            <div class="p-3">
+              <img class="imagem-procedimento" width="300px" src="img/sinais.png" alt="Imagem do procedimento de remoção de sinais">
+            </div>
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-primary gabi-color" data-bs-toggle="modal"
+              data-bs-target="#exampleModal">
+              Saiba mais
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+              aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Remoção de sinais</h1>
+                    <button type="button" class="btn-close gabi-color" data-bs-dismiss="modal"
+                      aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    O jato de plasma é um tratamento caracterizado por um gerador de plasma. Ele elimina verrugas e
+                    sinais que costumam nascer em nosso corpo e rosto com o passar dos anos. O procedimento é super
+                    rápido e seguro e em poucos minutos você pode ficar livre delas.
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary gabi-color" data-bs-dismiss="modal">Fechar</button>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="p-3">
+              <img class="imagem-procedimento" width="300px" src="img/bioestimulador.png" alt="Imagem do procedimento de bioestimulador">
+            </div>
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-primary gabi-color" data-bs-toggle="modal"
+              data-bs-target="#exampleModal">
+              Saiba mais
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+              aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Bioestimulador de colágeno</h1>
+                    <button type="button" class="btn-close gabi-color" data-bs-dismiss="modal"
+                      aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    Os bioestimuladores de colágeno são ativos potentes que colaboram com a manutenção da saúde da pele,
+                    proporcionando aspecto mais firme e elástico, ajudando a suavizar rugas, linhas de expressão e
+                    também no preenchimento de sulcos e áreas mais profundas causadas pela flacidez facial.
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary gabi-color" data-bs-dismiss="modal">Fechar</button>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="preAvaliacao" class="content">
+      <div class="text-center">
+        <h1>Pré Avaliação</h1>
+        <div class="divider"></div>
+        <p>Se você tem interesse em realizar uma avaliação, basta preencher o formulário clicando abaixo e nós
+          entraremos
+          em contato com você.</p>
+        <a class="btn btn-primary btn-big" href="https://forms.gle/zno1CLspvgqhR4NMA" role="button">Clique aqui!</a>
+
+      </div>
+
+    </div>
+
+    <div id="contato" class="content">
+      <h1>Contato</h1>
+      <div class="divider"></div>
+      <div class="text-center">
+        <a href="https://www.instagram.com/bmd.gabrielaabreu" target="_blank"><img width="70px" height="70px"
+            src="img/ig (2).png" class="social"></a>
+        <a href="https://www.apiwhatsapp.com/send?phone=5581996627164" target="_blank"><img width="70px" height="70px"
+            src="img/whatsapp (2).png" class="social"></a>
+      </div>
+
+    </div>
+  </section>
+
+
+</body>
+
+</html>
